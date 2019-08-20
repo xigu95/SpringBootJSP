@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'star_jediregular';
+    src: url('font/star-jedi_allfont.net-webfont.svg#star_jediregular') format('svg'),
+    	 url('font/star-jedi_allfont.net-webfont.woff') format('woff');         
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fragment_coreroman';
+    src: url('font/fragmentcore-webfont.woff') format('woff'),
+         url('font/fragmentcore-webfont.svg#fragment_coreroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+	color:#FFFFFF;
+	font-family: 'star_jediregular';
+	font-size: 60px;
+}
+body{
+	color: #FFFFFF;
+	font-family: 'fragment_coreroman';
+	background-color: #000000;
+}
+table {
+	width: 100%;
+	height: 100%;
+	border:none;
+	border-spacing: 10px;
+}
+th{
+	text-decoration: underline;
+	font-size: 20px;
+}
+td{
+	text-align: right;
+	font-size: 16px;
+}
+a{
+	color: #FFFFFF;
+}
